@@ -10,7 +10,7 @@ const nextConfig: NextConfig = {
                     { key: 'Referrer-Policy',          value: 'strict-origin-when-cross-origin' },
                     { key: 'X-DNS-Prefetch-Control',   value: 'on' },
                     { key: 'Permissions-Policy',        value: 'camera=(), microphone=(), geolocation=()' },
-                    { key: 'Content-Security-Policy',   value: "frame-ancestors 'self' https://sinvestir.fr" },
+                    { key: 'Content-Security-Policy',   value: "frame-ancestors 'self' https://sinvestir.fr https://christophedumont.dev" },
                 ],
             },
         ]
